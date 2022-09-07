@@ -1,0 +1,10 @@
+function=['*','2','3','6','1','*']
+a=1
+ans='o'
+function.pop(a)                       
+print(function)
+function.pop(a-1)
+print(function)
+function.pop(a+1)
+function.insert(a,ans)
+print(function)
